@@ -13,7 +13,10 @@ db = SQLAlchemy(app)
 
 
 from models import *
-
+#initial data test
+#t = Post("Hello world 2")
+#db.session.add(t)
+#db.session.commit()
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
